@@ -30,8 +30,15 @@
         display: none;
     }
 }
-
-@media (min-width: 768px) and (max-width: 991px) {
+@media screen and (max-width: 500px) {
+    .col-md-12 p {
+        font-size: 1rem; 
+    }
+}
+col-md-12 {
+    #lentesOscuros2 {
+        width: 100px;
+    }
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 0px 9px;
     }

@@ -159,7 +159,11 @@ img {
  :focus {
      outline: 0;
 }
-
+#lentesOscuros2,
+#lentesOscuros3 {
+     width: 700px;
+     height: 390px;
+}
 .btn-custom {
      margin-top: 20px;
      background-color: transparent !important;
@@ -779,7 +783,6 @@ button {
      text-align: center;
      font-family: 'Roboto', sans-serif;
 }
-
 ul.location_icon {
      text-align: center;
 }
